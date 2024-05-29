@@ -1,0 +1,8 @@
+title: Gaurav's Blogs
+description: Sharing Generative AI Knowledge 
+theme: jekyll-theme-cayman
+
+# Exclude from processing
+exclude:
+  - .env
+  - venv/
