@@ -235,9 +235,6 @@ outputs = model(input_ids)
 embeddings = outputs.last_hidden_state
 ```
 
-This code snippet demonstrates how to load a pretrained RoBERTa model and tokenizer from the Hugging Face Transformers library. It then tokenizes an example sentence and obtains the output embeddings from the model. These embeddings can be used for various downstream tasks, such as text classification or similarity comparisons.
-
-
 
 
 
