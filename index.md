@@ -5,11 +5,6 @@ title: Home
 
 # Welcome to My Site
 
-## Topics
+[Introduction to Embedding Models](topics/embedding_models/Introduction_to_Embedding_Models_seo.md)
 
-<ul>
-  {% assign sorted_topics = site.topics | sort: 'path' %}
-  {% for topic in sorted_topics %}
-    <li><a href="{{ topic.url }}">{{ topic.title }}</a></li>
-  {% endfor %}
-</ul>
+[Popular Embedding Models](topics/popular_embedding_models/Popular_Embedding_Models_seo.md)
