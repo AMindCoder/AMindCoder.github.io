@@ -1,4 +1,7 @@
-SEO Blog Content:
+---
+layout: default
+title: What are Embedding Models 
+---
 
 ## What are Embedding Models?
 

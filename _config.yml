@@ -2,6 +2,11 @@ title: Gaurav's Blogs
 description: Sharing Generative AI Knowledge 
 theme: jekyll-theme-cayman
 
+collections:
+  topics:
+    output: true
+    permalink: /topics/:name/
+
 # Exclude from processing
 exclude:
   # - .env
