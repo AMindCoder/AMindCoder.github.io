@@ -8,7 +8,7 @@ title: Home
 ## Topics
 
 <ul>
-  {% assign sorted_topics = site._topics | sort: 'path' %}
+  {% assign sorted_topics = site.topics | sort: 'path' %}
   {% for topic in sorted_topics %}
     <li><a href="{{ topic.url }}">{{ topic.title }}</a></li>
   {% endfor %}
