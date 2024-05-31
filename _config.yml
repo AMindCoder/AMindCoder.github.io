@@ -8,6 +8,6 @@ collections:
     permalink: /topics/:name/
 
 # Exclude from processing
-exclude:
+#exclude:
   # - .env
   #- venv/
