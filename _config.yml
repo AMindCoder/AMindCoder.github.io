@@ -4,5 +4,5 @@ theme: jekyll-theme-cayman
 
 # Exclude from processing
 exclude:
-  - .env
-  - venv/
+  # - .env
+  #- venv/
