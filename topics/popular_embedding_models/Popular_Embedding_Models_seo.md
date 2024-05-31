@@ -1,3 +1,8 @@
+---
+layout: default
+title: What are Popular Embedding Models
+---
+
 # What are Popular Embedding Models? 
 
 

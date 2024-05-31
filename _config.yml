@@ -5,8 +5,3 @@ collections:
   topics:
     output: true
     permalink: /:collection/:path/
-
-# Exclude from processing
-#exclude:
-  # - .env
-  #- venv/
