@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What are Embedding Models
+title: "What are Embedding Models"
 ---
 
 ## What are Embedding Models?

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What are Popular Embedding Models
+title: "What are Popular Embedding Models"
 ---
 
 # What are Popular Embedding Models? 
