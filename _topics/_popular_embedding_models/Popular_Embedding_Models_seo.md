@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "What are Popular Embedding Models"
 ---
 
