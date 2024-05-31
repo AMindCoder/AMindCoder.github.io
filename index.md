@@ -13,15 +13,17 @@ title: Home
 
 <ul>
   {% assign sorted_topics = site.topics | sort: 'path' %}
-  {% if sorted_topics %}
-    {% for topic in sorted_topics %}
-      <li><a href="{{ topic.url }}">{{ topic.title }}</a></li>
-    {% endfor %}
-  {% else %}
-    <li>No topics found</li>
-  {% endif %}
+  {% assign topic_folders = "" | split: "" %}
+  {% for topic in sorted_topics %}
+    {% assign folder = topic.path | split: "/" | slice: 1, -1 | join: "/" %}
+    {% if folder != "" %}
+      {% unless topic_folders contains folder %}
+        {% assign topic_folders = topic_folders | push: folder %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+  
+  {% for folder in topic_folders %}
+    <li><a href="{{ site.baseurl }}/{{ folder }}">{{ folder }}</a></li>
+  {% endfor %}
 </ul>
-
-## Debugging Output
-
-<p>site.topics: {{ site.topics | jsonify }}</p>
