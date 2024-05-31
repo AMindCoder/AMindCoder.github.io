@@ -3,8 +3,6 @@ layout: default
 title: "What are Popular Embedding Models"
 ---
 
-# What are Popular Embedding Models? 
-
 
 ## Word Embeddings (Word2Vec, GloVe, FastText)
 

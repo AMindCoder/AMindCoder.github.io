@@ -1,4 +1,7 @@
-SEO Blog:
+---
+layout: default
+title: "Strengths and Weaknesses of LLMs"
+---
 
 ## Advantages of Using LLMs
 

@@ -1,10 +1,8 @@
 ---
 layout: default
-title: "Factor to consider while choosing Embedding Models"
+title: "What are the Factors for choosing Embedding Models"
 ---
 
-
-## Factors to Consider When Choosing an Embedding Model
 
 Choosing the right embedding model is crucial for the success of many machine learning applications. The ideal model depends on various factors, including the specific task, the nature of the data, and available resources. This guide will delve into the essential factors to consider when selecting an embedding model.
 
