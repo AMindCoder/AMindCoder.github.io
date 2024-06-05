@@ -1,12 +1,13 @@
 ---
 layout: default
-title: "How to Evaluate Embedding Models Performance"
+title: "Evaluating Embedding Models: Ultimate Guide"
+author: Gaurav Chopra
 ---
 
 
 ## Intrinsic Evaluation Metrics for Embedding Models
 
-This sub-section introduces intrinsic evaluation metrics used to assess the quality of embedding models. It covers metrics like cosine similarity, analogy tasks, and correlation with human judgments.
+Evaluating embedding models is crucial for understanding their effectiveness in capturing semantic relationships between words. This sub-section introduces intrinsic evaluation metrics used to assess the quality of embedding models. It covers metrics like cosine similarity, analogy tasks, and correlation with human judgments.
 
 Intrinsic evaluation of word embeddings is crucial for understanding how well they capture semantic relationships between words without relying on downstream tasks. This evaluation helps in:
 
@@ -56,8 +57,7 @@ The performance of embedding models on intrinsic tasks is often evaluated by cor
 
 **Spearman's Rank Correlation Coefficient:** A commonly used metric is Spearman's rank correlation coefficient, which measures the strength and direction of the monotonic relationship between two ranked variables. A higher correlation indicates better alignment between the model's understanding of word relationships and human judgments.
 
-## <user_action>
-### Hands-on Exercise: Calculating Intrinsic Evaluation Metrics
+## Hands-on Exercise: Calculating Intrinsic Evaluation Metrics
 
 This exercise guides you through calculating intrinsic evaluation metrics for pre-trained word embeddings using the Gensim library in Python.
 
@@ -103,7 +103,6 @@ print(f"Word that best completes the analogy 'man is to king as woman is to ...'
 Try different word pairs and analogies to see how well the pre-trained embeddings capture various semantic relationships.
 
 This hands-on exercise provides a practical understanding of how to interact with word embeddings and calculate intrinsic evaluation metrics. By experimenting with different word pairs and analogies, you can gain insights into the strengths and limitations of pre-trained embedding models.
-</user_action>
 
 ## Extrinsic Evaluation Metrics for Embedding Models
 
@@ -150,8 +149,10 @@ To illustrate the impact of different embedding models, consider conducting a co
 
 By comparing the results, you can gain insights into which embedding models are best suited for your specific task and dataset. This comparative approach provides a practical understanding of how different embedding models contribute to the overall performance of a machine learning pipeline.
 
-Meta Description: Learn about intrinsic and extrinsic evaluation metrics for embedding models, including cosine similarity, analogy tasks, and downstream task performance. Understand the importance of evaluating word embeddings for NLP tasks.
+**Citations:**
+* [What are the performance metrics of the word embedding model](https://www.quora.com/What-are-the-performance-metrics-of-the-word-embedding-model)
+* [Word Embedding Evaluation](https://nlp.gluon.ai/examples/word_embedding_evaluation/word_embedding_evaluation.html)
+* [Intrinsic and Extrinsic Evaluation of Word Embedding Models](https://arxiv.org/pdf/1901.09785)
+* [Intrinsic and Extrinsic Evaluation of Word Embedding Models](https://www.cmpe.boun.edu.tr/~gungort/papers/Intrinsic%20and%20Extrinsic%20Evaluation%20of%20Word%20Embedding%20Models.pdf)
 
-URL Slug: evaluating-embedding-models
-
-Focus keyphrase: Evaluating Embedding Models
+---
