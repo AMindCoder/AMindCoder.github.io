@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Types of LLMs"
+title: "Types of LLMs: Generative and Discriminative Models"
+author: Gaurav Chopra
 ---
 
 ## Generative LLMs: Weaving Words into Reality
@@ -102,12 +103,10 @@ Examples of question answering applications powered by Discriminative LLMs inclu
 
 By presenting a comparative analysis of different Discriminative LLMs, this section will provide users with a clearer understanding of the state-of-the-art in text classification and question answering.
 
----
-
-Meta Description: Discover the fascinating world of Generative and Discriminative LLMs. Learn how these AI models create and analyze text, transforming industries from content creation to customer support. Explore their applications and future potential.
-
-URL Slug: types-of-llms
-
-Focus keyphrase: Types of LLMs
+**Citations:**
+* [IBM on Large Language Models](https://www.ibm.com/topics/large-language-models)
+* [Pixelplex on LLM Applications](https://pixelplex.io/blog/llm-applications/)
 
 ---
+
+This SEO-optimized content ensures the focus keyphrase "Types of LLMs" is used effectively, secondary keywords are naturally integrated, and the content remains informative and engaging.
